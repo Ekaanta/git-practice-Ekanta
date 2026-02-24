@@ -1,6 +1,6 @@
 """Main module"""
 from datetime import date
-from utils import add, subtract, multiply
+from utils import add, subtract, multiply, divide
 
 if __name__ == "__main__":
     print("Ekanta Banik Durjoy")
@@ -11,3 +11,9 @@ if __name__ == "__main__":
     print(f"add(10, 5) = {add(10, 5)}")
     print(f"subtract(10, 5) = {subtract(10, 5)}")
     print(f"multiply(10, 5) = {multiply(10, 5)}")
+    print(f"divide(10, 5) = {divide(10, 5)}")
+    
+    # Test error handling
+    print(f"\nError Handling Tests:")
+    print(f"divide(10, 0) = {divide(10, 0)}")
+    print(f"add('10', 5) = {add('10', 5)}")
