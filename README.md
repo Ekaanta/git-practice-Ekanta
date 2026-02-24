@@ -12,10 +12,10 @@ A simple Python project that demonstrates basic programming concepts including:
 - Git workflow and version control
 
 ## Features
-- ✅ Display user name and current date
-- ✅ Add two numbers
-- ✅ Subtract two numbers
-- ✅ Multiply two numbers
+- Display user name and current date
+- Add two numbers
+- Subtract two numbers
+- Multiply two numbers
 
 ## How to Use
 Run the main program:
